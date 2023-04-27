@@ -1,0 +1,11 @@
+#top_box{
+    width: 990px;
+    height: 80px;
+    padding: 5px;
+    background-color: darkblue;
+    text-align: center;
+}
+
+#Main_logo{
+    display: inline-block;
+}

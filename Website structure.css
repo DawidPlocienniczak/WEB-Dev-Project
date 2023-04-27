@@ -1,0 +1,30 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    color: white;
+    background-color:rgb(5, 94, 172)
+}
+
+section{
+    width: 700px;
+    float:left;
+}
+
+article{
+    background-color:darkblue;
+}
+
+aside{
+    width: 200px;
+    float: right;
+    background-color: darkblue;
+    margin-top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+a{
+    color: white;
+}
