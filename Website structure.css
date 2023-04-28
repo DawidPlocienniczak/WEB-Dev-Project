@@ -12,6 +12,7 @@ section{
 
 article{
     background-color:darkblue;
+    min-height: 300px;
 }
 
 aside{
@@ -27,4 +28,10 @@ nav ul li{
 
 a{
     color: white;
+}
+
+footer{
+    clear: both;
+    width: 1000px;
+    background-color: darkblue;
 }
