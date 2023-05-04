@@ -1,8 +1,16 @@
 body{
     width: 1000px;
+    min-height: 2000px;
     margin: 0 auto;
     color: white;
     background-color:rgb(5, 94, 172)
+}
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 section{
@@ -17,13 +25,20 @@ article{
 
 aside{
     width: 200px;
-    float: right;
+    max-height: 180px;
     background-color: darkblue;
     margin-top: 10px;
+    position: sticky;
+    /* POSITION STICKY NOT WORKING */
+}
+
+nav ul{
+    padding-left: 0px;
 }
 
 nav ul li{
     display: inline-block;
+    padding-left: 40px;
 }
 
 a{
