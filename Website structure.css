@@ -3,7 +3,14 @@ body{
     min-height: 2000px;
     margin: 0 auto;
     color: white;
-    background-color:rgb(5, 94, 172)
+    background-color:rgb(5, 94, 172);
+    animation: background_changer 10s infinite;
+}
+
+@keyframes background_changer{
+    0% {background-color:blue}
+    50%{background-color: rgb(5, 94, 172);}
+    100%{background-color: blue;}
 }
 
 .Content{
@@ -29,7 +36,7 @@ aside{
     background-color: darkblue;
     margin-top: 10px;
     position: sticky;
-    /* POSITION STICKY NOT WORKING */
+    top: 50px;
 }
 
 nav ul{
