@@ -1,21 +1,24 @@
-body{
+/* I have set a specific width, made it centered, made the text white */
+body{ 
     width: 1000px;
     min-height: 2000px;
     margin: 0 auto;
     color: white;
-    background-color:rgb(5, 94, 172);
-    animation: background_changer 10s infinite;
+    animation: background_changer 30s infinite;
+    padding: 0px 10px;
 }
-
+/* Below I have essentially created a function that changes the background colour when run. */
 @keyframes background_changer{
-    0% {background-color:blue}
-    50%{background-color: rgb(5, 94, 172);}
-    100%{background-color: blue;}
+    0% {background-color:rgb(0, 0, 200)}
+    25%{background-color: rgb(10, 20, 210);}
+    50%{background-color: rgb(30, 60, 210);}
+    75%{background-color: rgb(10, 20, 210);}
+    100% {background-color:rgb(0, 0, 200)}
 }
 
 .Content{
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
     justify-content: space-between;
     
 }
@@ -28,6 +31,8 @@ section{
 article{
     background-color:darkblue;
     min-height: 300px;
+    padding: 10px;
+    margin: 8px 0px;
 }
 
 aside{
@@ -37,6 +42,10 @@ aside{
     margin-top: 10px;
     position: sticky;
     top: 50px;
+}
+
+h2{
+    text-align: center;
 }
 
 nav ul{
@@ -52,8 +61,20 @@ a{
     color: white;
 }
 
+.videos{
+    text-align: center;
+}
+
 footer{
-    clear: both;
     width: 1000px;
     background-color: darkblue;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.social_media_logo{
+    border: 2px solid black;
+    border-radius: 22%;
+    width: 56px;
 }
