@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="Website structure.css">
+        <link rel="stylesheet" type="text/css" href="Website_structure.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,12 @@
         <meta name="description" content="Star citizen future plans, current Star Citizen objectives and gameplay">
         <title>Star Citizen In-Game Overview</title>
     </head>
+
     <body>
         <div class="Content">
+
             <main>
+
                 <section>
                     <h1>In-Game Content</h1>
                     <article>
@@ -25,25 +28,40 @@
                     <article>
                         <header>Videos</header>
                         <div class="videos">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6pPaUzkE0EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" alt="https://www.youtube.com/embed/6pPaUzkE0EI" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6pPaUzkE0EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </article>
                 </section>
+
             </main>
+
             <aside>
+
                 <h2>Navigation Menu</h2>
                 <nav>
                     <ul>
-                        <li><a href="Game Website Project Main.html">Home Page</a></li>
+                        <li><a href="Game_Website_Main_Page.html">Home Page </a></li>
                         <hr>
-                        <li><a href="Game Website Project 2.html">In-Game Overview</a></li>
+                        <li><a href="Game_Website_Page_2.html">In-Game Overview</a></li>
                         <hr>
-                        <li><a href="Game Website Project 3.html">Reviews</a></li>
+                        <li><a href="Game_Website_Final_Page.html">Reviews</a></li>
                     </ul>
                 </nav>
 
+                <div id="Music">
+
+                    <audio id="soundPlayer">
+                            <source src="Assets/Audio/Sunset-Landscape.mp3" type="audio/mpeg">
+                    </audio>
+                    
+                    <button id="soundButton" onclick="playSound()">Play Music</button>
+                    
+                </div>
+
             </aside>
+
         </div>
+
         <footer>
             <p>&copy; 2023 Follow us on</p>
             <img class="social_media_logo" src="Assets/Facebook_Image.jpg" alt="An image of the FaceBook logo" title="FaceBook logo"/>
@@ -51,6 +69,8 @@
             <img class="social_media_logo" src="Assets/Youtube_Image.jpg" alt="An image of the Youtube logo" title="Youtube logo"/>
             <p>Contact info: 07842 666 730</p>
         </footer>
+
         <script src="Game Website Project.js"></script>
+
     </body>
 </html>

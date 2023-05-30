@@ -15,7 +15,7 @@ body{
     75%{background-color: rgb(10, 20, 210);}
     100% {background-color:rgb(0, 0, 200)}
 }
-
+/* used flex direction reverse because I was too lazy too cut and past the aside part of the code to the other side (originally was on the right) */
 .Content{
     display: flex;
     flex-direction:row-reverse;
@@ -27,12 +27,13 @@ section{
     width: 700px;
     float:left;
 }
-
+/* got some space between the article boxes so that they are not clumped together one after the other. */
 article{
     background-color:darkblue;
     min-height: 300px;
     padding: 10px;
     margin: 8px 0px;
+    border: 2px solid black;
 }
 
 aside{
@@ -48,6 +49,10 @@ h2{
     text-align: center;
 }
 
+.border{
+    border: 2px solid black;
+}
+
 nav ul{
     padding-left: 0px;
 }
@@ -60,17 +65,28 @@ nav ul li{
 a{
     color: white;
 }
-
+/* hovering over the navigation bar options will show you which one your cursor is over making it easier for the user */
+a:hover{
+    border: 2px solid white;
+    border-radius: 42%;
+    padding: 4px;
+}
+/* making the video centered to the box it's in making it more appealing to the user */
 .videos{
     text-align: center;
 }
+/* getting some distance between the music button and the navigation bar */
+#soundButton{
+    margin: 20px 0px 0px 10px;
+}
 
 footer{
-    width: 1000px;
+    width: 996px;
     background-color: darkblue;
     text-align: center;
     display: inline-block;
     margin-top: 20px;
+    border: 2px solid black;
 }
 
 .social_media_logo{
