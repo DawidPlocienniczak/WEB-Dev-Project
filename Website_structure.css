@@ -1,7 +1,6 @@
 /* I have set a specific width, made it centered, made the text white */
 body{ 
     width: 1000px;
-    min-height: 2000px;
     margin: 0 auto;
     color: white;
     animation: background_changer 30s infinite;
@@ -35,7 +34,7 @@ article{
     margin: 8px 0px;
     border: 2px solid black;
 }
-
+/* used min-height: 2000px; to check if the poistion sticky on the aside was working or not. */
 aside{
     width: 200px;
     max-height: 180px;
@@ -47,10 +46,6 @@ aside{
 
 h2{
     text-align: center;
-}
-
-.border{
-    border: 2px solid black;
 }
 
 nav ul{
@@ -74,6 +69,7 @@ a:hover{
 /* making the video centered to the box it's in making it more appealing to the user */
 .videos{
     text-align: center;
+    margin: 5px 0px;
 }
 /* getting some distance between the music button and the navigation bar */
 #soundButton{

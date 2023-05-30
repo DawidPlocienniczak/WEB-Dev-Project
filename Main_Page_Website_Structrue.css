@@ -1,3 +1,4 @@
+/* Only the first page has the top box so I included it into a seperate css as the other two pages wont need this bit of css. */
 #top_box{
     width: 990px;
     height: 80px;

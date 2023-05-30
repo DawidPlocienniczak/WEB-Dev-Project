@@ -1,7 +1,7 @@
 const player = document.getElementById("soundPlayer");
 const button = document.getElementById("soundButton");
 let isClicked = false;
-
+player.loop=true; /*This line allows me to loop the music when it is activated by the user */
 
 function playSound() {
     if (isClicked) {
